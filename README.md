@@ -9,6 +9,8 @@
 
   TypeScript é uma linguagem de programação desenvolvida pela Microsoft que se apresenta como um superconjunto do JavaScript. Isso significa que todo código JavaScript é também código TypeScript válido, mas TypeScript adiciona recursos adicionais que não estão presentes no JavaScript, com o objetivo de tornar o desenvolvimento mais robusto e menos propenso a erros.
 
+**  RXJS **
+
   RXJS, que significa Reactive Extensions for JavaScript, é uma biblioteca para programação reativa baseada em observables. Desenvolvida por Microsoft, RxJS é amplamente utilizada em aplicações web modernas para lidar com eventos assíncronos e dados reativos de forma eficaz.
 
 #########################################################################################################################################################################################
