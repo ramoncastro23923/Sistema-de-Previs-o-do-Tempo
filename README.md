@@ -14,6 +14,112 @@
 #########################################################################################################################################################################################
 #### Dependências:
 
+Vamos analisar como cada dependência listada no seu `package.json` é utilizada na aplicação Angular, de acordo com o código que você forneceu.
+
+### Dependências (`dependencies`)
+
+1. **`@angular/animations`**:
+   - Usado para animações em Angular.
+   - **Arquivo Utilizado**: `app.module.ts` (importação de `BrowserAnimationsModule`).
+
+2. **`@angular/common`**:
+   - Fornece funcionalidades comuns de Angular como pipes, diretivas e serviços.
+   - **Arquivo Utilizado**: `app.module.ts` (importação de `HttpClientModule`).
+
+3. **`@angular/compiler`**:
+   - Fornece a capacidade de compilar templates Angular.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas essencial para o funcionamento do Angular.
+
+4. **`@angular/core`**:
+   - Contém as funcionalidades principais do Angular, como o decorador `@NgModule`.
+   - **Arquivo Utilizado**: Todos os arquivos que utilizam o decorador `@Component` e `@NgModule` (`app.module.ts`, `app.component.ts`, `weather-home.component.ts`, etc.).
+
+5. **`@angular/forms`**:
+   - Fornece funcionalidades para formulários, como `ngModel` para binding.
+   - **Arquivo Utilizado**: `weather-home.component.ts` (uso de `[(ngModel)]`), `app.module.ts` (importação de `FormsModule`).
+
+6. **`@angular/platform-browser`**:
+   - Contém funcionalidades para renderizar a aplicação no navegador.
+   - **Arquivo Utilizado**: `app.module.ts` (importação de `BrowserModule`).
+
+7. **`@angular/platform-browser-dynamic`**:
+   - Utilizado para compilar a aplicação no navegador.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas essencial para a inicialização da aplicação Angular.
+
+8. **`@angular/router`**:
+   - Fornece funcionalidades de roteamento.
+   - **Arquivo Utilizado**: `app-routing.module.ts` (importação de `RouterModule`).
+
+9. **`@fortawesome/angular-fontawesome`**:
+   - Integra Font Awesome com Angular.
+   - **Arquivo Utilizado**: `app.module.ts` (importação de `FontAwesomeModule`), `weather-home.component.html` (uso de `<fa-icon>`).
+
+10. **`@fortawesome/fontawesome-svg-core`**:
+    - Núcleo para o Font Awesome SVG.
+    - **Arquivo Utilizado**: Usado internamente pelo `@fortawesome/angular-fontawesome`.
+
+11. **`@fortawesome/free-solid-svg-icons`**:
+    - Contém ícones sólidos do Font Awesome.
+    - **Arquivo Utilizado**: `weather-home.component.ts` (importação de `faMagnifyingGlass`).
+
+12. **`rxjs`**:
+    - Biblioteca para programação reativa.
+    - **Arquivo Utilizado**: `weather-home.component.ts` (uso de operadores RxJS como `takeUntil`).
+
+13. **`tslib`**:
+    - Fornece utilitários TypeScript que ajudam a reduzir o código gerado pelo compilador.
+    - **Arquivo Utilizado**: Usado internamente pelo TypeScript.
+
+14. **`zone.js`**:
+    - Biblioteca que ajuda a detectar mudanças e atualizações no Angular.
+    - **Arquivo Utilizado**: Usado internamente pelo Angular para detecção de mudanças.
+#########################################################################################################################################################################################
+### Dependências de Desenvolvimento (`devDependencies`)
+
+1. **`@angular-devkit/build-angular`**:
+   - Ferramentas para construir e empacotar uma aplicação Angular.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas utilizado no processo de build da aplicação.
+
+2. **`@angular/cli`**:
+   - Ferramenta de linha de comando para Angular.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas usado para criar, construir e gerenciar a aplicação Angular.
+
+3. **`@angular/compiler-cli`**:
+   - Ferramentas para compilar o código Angular.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas essencial para a compilação.
+
+4. **`@types/jasmine`**:
+   - Tipagens para Jasmine (framework de testes).
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas usado para testes unitários.
+
+5. **`jasmine-core`**:
+   - Núcleo do Jasmine para testes.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas usado para executar testes.
+
+6. **`karma`**:
+   - Test runner para JavaScript.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas usado para rodar testes unitários.
+
+7. **`karma-chrome-launcher`**:
+   - Lança o Chrome para executar testes com Karma.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas usado para rodar testes em um navegador.
+
+8. **`karma-coverage`**:
+   - Relatório de cobertura de testes com Karma.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas gera relatórios de cobertura de testes.
+
+9. **`karma-jasmine`**:
+   - Integra Jasmine com Karma.
+   - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas usado para executar testes com Jasmine.
+
+10. **`karma-jasmine-html-reporter`**:
+    - Relatório HTML dos testes com Jasmine e Karma.
+    - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas gera relatórios HTML para os testes.
+
+11. **`typescript`**:
+    - Compilador TypeScript.
+    - **Arquivo Utilizado**: Não diretamente visível no código fornecido, mas necessário para compilar o código TypeScript da aplicação.
+
 #########################################################################################################################################################################################
 #### Diretórios Principais
 
