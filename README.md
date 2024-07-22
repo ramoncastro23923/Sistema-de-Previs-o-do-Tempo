@@ -185,5 +185,45 @@ importações específicas do seu projeto:
 app.component.ts
 - Este componente serve como um contêiner para outros componentes e módulos.
 
+#########################################################################################################################################################################################
+Diretórios principais:
+
+### 1. **`src/app`**
+   - **`components/`**: Contém os componentes Angular, como `header.component.ts`, `todo-form.component.ts`, e `todo-card.component.ts`.
+   - **`services/`**: Contém serviços que fornecem funcionalidades compartilhadas, como `todo-signals.service.ts`.
+   - **`models/`**: Contém modelos de dados e enums, como `todo.model.ts` e `todoKeyLocalStorage.ts`.
+   - **`app.component.ts`**: O componente raiz da aplicação.
+   - **`app.module.ts`**: O módulo raiz da aplicação, onde são importados outros módulos e componentes.
+
+### 2. **`src/assets`**
+   - Contém arquivos estáticos, como imagens, fontes, e estilos globais que podem ser usados na aplicação.
+
+### 3. **`src/environments`**
+   - Contém arquivos de configuração de ambiente para diferentes configurações de build, como `environment.ts` e `environment.prod.ts`.
+
+### 4. **`src/styles`**
+   - Contém estilos globais da aplicação. Pode ter um arquivo `styles.scss` ou similar.
+
+### 5. **`src/app/components/`**
+   - **`header/`**: Contém o componente de cabeçalho (`header.component.ts`, `header.component.html`, `header.component.scss`).
+   - **`todo-form/`**: Contém o componente de formulário de tarefas (`todo-form.component.ts`, `todo-form.component.html`, `todo-form.component.scss`).
+   - **`todo-card/`**: Contém o componente de cartões de tarefas (`todo-card.component.ts`, `todo-card.component.html`, `todo-card.component.scss`).
+
+### 6. **`src/app/services/`**
+   - **`todo-signals.service.ts`**: Serviço que gerencia o estado das tarefas e interage com o armazenamento local.
+
+### 7. **`src/app/models/`**
+   - **`model/`**: Contém classes e interfaces de modelos, como `todo.model.ts`.
+   - **`enum/`**: Contém enums que definem constantes usadas em diferentes partes da aplicação, como `todoKeyLocalStorage.ts`.
+
+### 8. **`src/app` (principal)**
+   - **`app.component.ts`**: O componente principal que é a raiz da árvore de componentes.
+   - **`app.component.html`**: Template HTML do componente principal.
+   - **`app.component.scss`**: Estilos específicos para o componente principal.
+
+### 9. **`src/app/app.module.ts`**
+   - **`app.module.ts`**: Define o módulo principal da aplicação, onde os módulos e componentes são declarados e importados.
+
+
 
 #########################################################################################################################################################################################
