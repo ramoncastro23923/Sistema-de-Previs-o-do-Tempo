@@ -1,9 +1,9 @@
 #########################################################################################################################################################################################
 #### O que foi utilizado:
 
-  ANGULAR é uma plataforma de desenvolvimento de software de código aberto que permite a criação de aplicações web dinâmicas e escaláveis. Desenvolvido e mantido pelo Google, Angular se destaca por sua abordagem estruturada e suas ferramentas integradas, facilitando o desenvolvimento de aplicações de alta qualidade e complexidade.
-  No cerne do Angular está o conceito de Single Page Application (SPA), onde a interação do usuário com a aplicação ocorre sem a necessidade de recarregar a página inteira. Isso é possível graças à utilização de uma arquitetura baseada em componentes, onde cada componente é uma unidade reutilizável e independente que encapsula a lógica, o template e os estilos associados.
-  Angular utiliza TypeScript, uma linguagem de programação que é um superconjunto do JavaScript. TypeScript adiciona tipagem estática e outras funcionalidades ao JavaScript, permitindo um desenvolvimento mais robusto e menos propenso a erros.
+  ANGULAR é uma plataforma de desenvolvimento de software de ***código aberto*** que permite a criação de aplicações web dinâmicas e escaláveis. ***Desenvolvido*** e mantido ***pelo Google***, Angular se destaca por sua abordagem estruturada e suas ferramentas integradas, facilitando o desenvolvimento de aplicações de alta qualidade e complexidade.
+  No cerne do Angular está o ***conceito de Single Page Application (SPA)***, onde ***a interação do usuário com a aplicação ocorre sem a necessidade de recarregar a página inteira***. ***Isso é possível graças à utilização de uma arquitetura baseada em componentes***, onde ***cada componente é uma unidade reutilizável e independente que encapsula a lógica, o template e os estilos associados***.
+  Angular utiliza ***TypeScript, uma linguagem de programação que é um superconjunto do JavaScript***. TypeScript adiciona tipagem estática e outras funcionalidades ao JavaScript, permitindo um desenvolvimento mais robusto e menos propenso a erros.
 
   TYPESCRIPT 
 
