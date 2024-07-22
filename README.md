@@ -12,10 +12,6 @@
   RXJS, que significa Reactive Extensions for JavaScript, é uma biblioteca para programação reativa baseada em observables. Desenvolvida por Microsoft, RxJS é amplamente utilizada em aplicações web modernas para lidar com eventos assíncronos e dados reativos de forma eficaz.
 
 #########################################################################################################################################################################################
-#### Dependências:
-
-Vamos analisar como cada dependência listada no seu `package.json` é utilizada na aplicação Angular, de acordo com o código que você forneceu.
-
 ### Dependências (`dependencies`)
 
 1. **`@angular/animations`**:
